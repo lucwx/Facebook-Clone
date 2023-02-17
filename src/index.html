@@ -4,25 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                'blue-facebook': '#1877F2',
-                'gray-facebook': '#F0F2F5',
-                'green-facebook': '#36A420',
-              },
-              spacing: {
-                '580': '580px',
-                '380': '380px',
-              }
-            }
-          }
-        }
-      </script>
+    <link rel="stylesheet" href="../dist/output.css">
     <title>Facebook</title>
 </head>
 <body>
@@ -33,8 +15,8 @@
         </div>
         
         <div class="bg-white p-4 w-380 rounded-lg flex justify-center items-center flex-col shadow-lg mt-4">
-            <input class="border-gray-300 rounded-md border w-full h-14 mb-2.5 pl-2" placeholder="Email ou Telefone" type="text">
-            <input class="border-gray-300 rounded-md border w-full h-14 mb-2.5 pl-2" placeholder="Senha" type="password">
+            <input class="btn-facebook" placeholder="Email ou Telefone" type="text">
+            <input class="btn-facebook" placeholder="Senha" type="password">
             <button class="h-12 w-full bg-blue-facebook rounded-md text-white font-bold" type="submit" >Entrar</button>
             <a class="text-blue-facebook cursor-pointer mt-4" href="">Esqueceu a senha?</a>
             <hr class="w-full m-4 border-gray-300 border-1">
