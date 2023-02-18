@@ -5,7 +5,7 @@
 <br>
 
 ## Link do Projeto
-https://projeto-clone-lucas.vercel.app/
+https://projeto-lucas-clone.vercel.app/
 
 <br>
 
